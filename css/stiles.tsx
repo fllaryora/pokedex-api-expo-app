@@ -13,7 +13,17 @@ const styles = StyleSheet.create({
         marginVertical: 25,
         textAlign: "center",
     },
+    pokemonContainer: { backgroundColor: "lightgrey", marginTop: 10 },
+    pokemonTitle: {
+      fontSize: 32,
+      alignSelf: "center",
+      marginTop: 10,
+    },
+    pokemonSprite: {
+      width: 200,
+      height: 200,
+      alignSelf: "center",
+    },
   });
 
 export default styles;
-  
