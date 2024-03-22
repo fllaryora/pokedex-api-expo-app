@@ -19,7 +19,9 @@ const PokemonItem:React.FC<PokemonProps> = ({item, navigation}): JSX.Element  =>
     //console.log(customSprite);
     return (
       <View style={styles.pokemonContainer} >
-        <TouchableOpacity onPress={ ()=>navigation.navigate("Details")}>
+        <TouchableOpacity onPress={ () => 
+          navigation.navigate(  "Details", {nroPokemon: item.nro} )
+        }>
         <Text style={styles.pokemonTitle}>
           {item.name}
         </Text>

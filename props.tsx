@@ -1,6 +1,6 @@
 export type RootStackParamList = {
     Home: undefined;
-    Details: undefined;
+    Details:{ nroPokemon: number };
    // Settings: undefined;
    // Profile: undefined;
   };
