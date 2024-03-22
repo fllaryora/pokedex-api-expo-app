@@ -43,9 +43,7 @@ const DetailsScreen: React.FC<DetailsScreenProps> = (props: DetailsProps): React
       
       return (
         <View >
-          <Text style={styles.h1}>Details of the pokemon</Text>
-  
-                   
+          <Text style={styles.h1}>Details of the pokemon</Text>                   
         </View>
       );
 };
